@@ -27,7 +27,7 @@ Limitations: This analysis does not consider the following: the companion charac
 ## Load Packages & Libraries
 
 ```{r}
-pacman::p_load("tidyverse", "readr", "ggplot2", "lubridate", "purrr", "scales", "magrittr", "ggpubr", "forcats", "see", "stringr")
+pacman::p_load("tidyr", "dplyr", "readr", "ggplot2", "lubridate", "purrr", "scales", "magrittr", "ggpubr", "forcats", "see", "stringr")
 
 ```
 
