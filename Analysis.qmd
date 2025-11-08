@@ -19,11 +19,7 @@ engine: knitr
 
 # Introduction
 
-Broadcasted by the BBC, Doctor Who is a British Science-Fiction TV Series about a time travelling alien and their companion. To date, 319 stories have been broadcast: 155 from the Classic Era (1963-1989); 1 film (1996); and 163, since the Revival Era began in 2005.
-
-This analysis looks at why the show performed best with 13 episodes per series, and whether the Episode types - as well as the variety of Writers and Directors - positively or negatively impacted the amount of UK Viewers and/or the Appreciation Index.
-
-Limitations: This analysis does not consider the following: the companion characters; episode themes; budgets; non-UK audiences; or the consumption habits of UK viewers (e.g. if they watch live or via iPlayer).
+This analysis considers how series length, episode type, and the variety of writers and directors either positively or negatively impact the amount of UK Viewers and/or the Appreciation Index for the sci-fi show "Doctor Who".
 
 # Data Preparation
 
@@ -741,3 +737,4 @@ Observations:
 # Conclusion
 
 Variety is the spice of life, but for a show like "Doctor Who" to thrive, it needs to develop a framework that compliments the restrictions of a reduced series length, rather than attempt to replicate the format of a series with 13 episodes. Moreover, for the show to flourish, it needs time for viewer habits to develop to changes in format, but it also needs an increased variety of writers - partly so that the Showrunner can focus on managing the show, but also to develop talent that benefits the future.
+
