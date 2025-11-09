@@ -26,6 +26,8 @@ This analysis considers how series length, episode type, and the variety of writ
 ## Load Packages & Libraries
 
 ```{r}
+if (!require("pacman")) install.packages("pacman")
+
 pacman::p_load("tidyr", "readr", "ggplot2", "lubridate", "purrr", "scales", "magrittr", "ggpubr", "forcats", "see", "stringr")
 
 ```
@@ -737,4 +739,5 @@ Observations:
 # Conclusion
 
 Variety is the spice of life, but for a show like "Doctor Who" to thrive, it needs to develop a framework that compliments the restrictions of a reduced series length, rather than attempt to replicate the format of a series with 13 episodes. Moreover, for the show to flourish, it needs time for viewer habits to develop to changes in format, but it also needs an increased variety of writers - partly so that the Showrunner can focus on managing the show, but also to develop talent that benefits the future.
+
 
