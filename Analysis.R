@@ -7,7 +7,7 @@
 
 # Load Packages & Libraries
 
-import.packages("pacmand")
+iif (!require("pacman")) install.packages("pacman")
 
 pacman::p_load("tidyr", "readr", "ggplot2", "lubridate", "purrr", "scales", "magrittr", "ggpubr", "forcats", "see", "stringr")
 
@@ -669,4 +669,5 @@ Writprcnt <- dw |> group_by(Series, SeriesCat) |> count(ShowrunnerProp) |>
 # for the show to flourish, it needs time for viewer habits to develop to changes in format, but it also needs an increased 
 # variety of writers - partly so that the Showrunner can focus on managing the show, but also to develop talent that benefits 
 # the future.
+
 
